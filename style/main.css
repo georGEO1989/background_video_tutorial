@@ -1,0 +1,51 @@
+body {
+	background-color: #000;
+}
+
+.background {
+	z-index: -9999;
+}
+
+.background > video {
+	height: 100%;
+	width: 100%;
+	opacity: 0.85;
+	position: absolute;
+}
+
+.header {
+	z-index: 9999;
+	background-color: #000;
+	color: #fff;
+	border-radius: 50px 50px 0 0;
+}
+
+.nav {
+	float: left;
+}
+
+.nav > h2 {
+	font-size: 4em;
+}
+
+nav {
+	font-size: 2em;
+}
+
+nav > ul {
+	list-style-type: none;
+}
+
+nav > ul > li {
+	display: inline;
+	margin-right: 40px;
+}
+
+
+.mars {
+	width: 17.09401709401709%;
+	height: auto;
+	position: relative;
+	bottom: 50px;
+	float: right;
+}
